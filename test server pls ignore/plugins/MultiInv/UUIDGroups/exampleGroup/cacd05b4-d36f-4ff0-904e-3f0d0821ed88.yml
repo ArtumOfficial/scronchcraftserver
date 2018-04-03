@@ -1,0 +1,10 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"11":{"item":"ARROW","quantity":2,"durability":0,"nbttags":null,"enchantments":{}},"12":{"item":"DIRT","quantity":31,"durability":0,"nbttags":null,"enchantments":{}},"16":{"item":"WOOD","quantity":20,"durability":0,"nbttags":null,"enchantments":{}},"17":{"item":"INK_SACK","quantity":2,"durability":9,"nbttags":null,"enchantments":{}},"0":{"item":"DIAMOND_PICKAXE","quantity":1,"durability":28,"nbttags":null,"enchantments":{}},"1":{"item":"STONE_AXE","quantity":1,"durability":90,"nbttags":null,"enchantments":{}},"2":{"item":"COBBLESTONE","quantity":10,"durability":0,"nbttags":null,"enchantments":{}},"3":{"item":"BREAD","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"4":{"item":"APPLE","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"5":{"item":"STRING","quantity":4,"durability":0,"nbttags":null,"enchantments":{}},"6":{"item":"OBSIDIAN","quantity":7,"durability":0,"nbttags":null,"enchantments":{}},"7":{"item":"CARROT_ITEM","quantity":8,"durability":0,"nbttags":null,"enchantments":{}},"8":{"item":"ROTTEN_FLESH","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"9":{"item":"BONE","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"10":{"item":"SAPLING","quantity":1,"durability":0,"nbttags":null,"enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 6
+exp: 0.31578967
+gameMode: SURVIVAL
+health: 11.666665077209473
+hunger: 16
+saturation: 0.0
+CREATIVE: '{"potions":[],"inventory":{"size":41,"items":{}},"armour":{"size":4,"items":{}}}'
+SPECTATOR: '{"potions":[],"inventory":{"size":41,"items":{}},"armour":{"size":4,"items":{}}}'

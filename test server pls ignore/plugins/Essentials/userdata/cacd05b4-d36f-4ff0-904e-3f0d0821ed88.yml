@@ -1,0 +1,33 @@
+lastAccountName: Stellarexys
+timestamps:
+  login: 1522678727094
+  logout: 1522685895401
+  lastteleport: 1522676736857
+ipAddress: 127.0.0.1
+afk: false
+lastlocation:
+  world: world
+  x: -273.942132107507
+  y: 13.0
+  z: 1207.5183958683185
+  yaw: 190.8706
+  pitch: 59.999924
+powertools: {}
+logoutlocation:
+  world: world
+  x: -269.0200000692072
+  y: 64.0
+  z: 1156.4401954305008
+  yaw: 298.49384
+  pitch: 14.099863
+nickname: §aMinty
+money: '6235.0'
+godmode: false
+homes:
+  home:
+    world: world
+    x: -266.4233662934438
+    y: 64.0
+    z: 1158.4146898689494
+    yaw: -110.25017
+    pitch: 90.0

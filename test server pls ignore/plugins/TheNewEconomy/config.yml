@@ -1,0 +1,166 @@
+# The New Economy v0.0.5.5
+# Author: creatorfromhell
+# License: AGPLv3
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+Core:
+  UUID: true
+  Multiworld: true
+  Debug: false
+  Metrics: true
+  Server:
+    Enabled: true
+    Name: Server Account
+    Balance: 500
+  Pins:
+    Enabled: false
+    Force: true
+  Commands:
+    PayShort: true
+    BalanceShort: true
+  Update:
+    Check: true
+    Notify: true
+  Transactions:
+    Track: true
+    Format: M, d y
+    Timezone: US/Eastern
+  AutoSaver:
+    Enabled: true
+    Interval: 600
+  Currency:
+    Default:
+      Format: <symbol><major.amount><decimal><minor.amount><shorten>
+      MaxBalance: 999999999999999999
+      Prefixes: kMGTPEZYXWV
+      Balance: 0.0
+      Default: true
+      Conversion: 1.0
+      Symbol: ♦
+      Decimal: .
+      DecimalPlaces: 0
+      ItemCurrency: false
+      BankChest: true
+      Vault: true
+      EnderChest: true
+      TrackChest: false
+      ItemMajor: GOLD_INGOT
+      ItemMinor: IRON_INGOT
+      MajorName:
+        Single: Lumi
+        Plural: Lumis
+      MinorName:
+        Single: Centilumen
+        Plural: Centilumens
+      Interest:
+        Enabled: false
+        Rate: 0.2
+        Interval: 1800
+  Auctions:
+    Enabled: true
+    Cost: 10
+    AllowWorld: true
+    Multiple: false
+    MaxMultiple: 3
+    PersonalQueue: 3
+    MaxQueue: 10
+    MaxStart: 2000
+    MinStart: 1
+    MaxIncrement: 1000
+    MinIncrement: 1
+    MaxTime: 60
+    MinTime: 30
+    AntiSnipe: true
+    SnipePeriod: 30
+    SnipeTime: 20
+    Announce: true
+    Interval: 10
+    Countdown: true
+    CountdownTime: 10
+  Shops:
+    Enabled: true
+    Cost: 10.0
+    Max: 5
+    Rows: 3
+    Shoppers: 10
+    Shares:
+      Enabled: true
+      Max: 3
+  Signs:
+    Balance:
+      Enabled: true
+      Currency: Default
+      Place: 20.0
+      Use: 20.0
+    Bank:
+      Enabled: true
+      Place: 20.0
+      Use: 20.0
+      Max: 10
+    Vault:
+      Enabled: true
+      Place: 20.0
+      Use: 20.0
+    Item:
+      Enabled: true
+      Place: 20.0
+      Use: 20.0
+      Max: 10
+      Multiple: true
+      MaxOffers: 9
+      EnderChest: true
+    Shop:
+      Enabled: true
+      Place: 20.0
+      Use: 20.0
+  Death:
+    Lose: false
+    Vault:
+      Drop: 0
+      IncludeEmpty: true
+      PlayerOnly: true
+  Vault:
+    Enabled: true
+    Command: true
+    NPC: false
+    Cost: 20.0
+    Rows: 3
+    MultiManage: false
+    MaxViewers: 1
+  Bank:
+    Enabled: true
+    Connected: false
+    Cost: 20.0
+    MultiManage: false
+  World:
+    EnableChangeFee: false
+    ChangeFee: 5.0
+  Database:
+    Type: FlatFile
+    Prefix: TNE
+    Backup: true
+    FlatFile:
+      File: economy.tne
+    Transactions:
+      Cache: true
+      Update: 600
+    MySQL:
+      Host: localhost
+      Port: 3306
+      Database: TheNewEconomy
+      User: user
+      Password: password
+    H2:
+      File: Economy
+    SQLite:
+      File: economy.db
+  Conversion:
+    Convert: false
+    Name: iConomy
+    Format: MySQL
+    Options:
+      Host: localhost
+      Port: 3306
+      Database: sql_eco
+      User: root
+      Password: Password

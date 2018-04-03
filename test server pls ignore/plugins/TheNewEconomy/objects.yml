@@ -1,0 +1,131 @@
+# The New Economy v0.0.5.5
+# Author: creatorfromhell
+# License: AGPLv3
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+
+Objects:
+  Commands:
+    Enabled: false
+    ZeroMessage: false
+    Example:
+      Cost: 5.0
+      SubCommands:
+        Sub:
+          Cost: 2.0
+  Inventories:
+    Enabled: false
+    PerWorld: true
+    ZeroMessage: false
+    Anvil:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Beacon:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    BrewStand:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Chest:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    CreativeInventory:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Dispenser:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Dropper:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    EnchantmentTable:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    EnderChest:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Furnace:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Hopper:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    SurvivalInventory:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Villager:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0
+    Workbench:
+      Enabled: false
+      Timed: false
+      Cost: 200.0
+      Packages:
+        DefaultPackage:
+          Time: 600
+          Cost: 20.0

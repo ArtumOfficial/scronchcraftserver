@@ -1,0 +1,906 @@
+# Jobs configuration.
+Jobs:
+  tier0:
+    fullname: Survivalist
+    shortname: T0
+    description: '&8Tier 0. &8Block breaking class. Earns access to T1 on level 5.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Breaking basic blocks'
+    - '  &7Killing mobs'
+    ChatColour: GRAY
+    BossBarColour: WHITE
+    chat-display: shortjob
+    max-level: 5
+    vip-max-level: 5
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 20*(joblevel)+(joblevel*joblevel*8)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 344
+      Data: 0
+    permissions:
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    conditions:
+      tierupgrade:
+        requires:
+        - j:Survivalist-5
+        perform:
+        - p:jobs.join.Breaker-true  
+        - p:jobs.join.Hunter-true  
+        - p:jobs.join.Gatherer-true  
+        - p:jobs.join.Crafter-true  
+    maxDailyQuests: 0
+    Break:
+      LOG:
+        experience: 2.0
+      STONE:
+        experience: 1.0
+      LEAVES:
+        experience: 0.5
+      YELLOW_FLOWER:
+        experience: 1.0
+      RED_ROSE:
+        experience: 1.0
+      DOUBLE_PLANT:
+        experience: 1
+      LONG_GRASS:
+        experience: 0.5
+      COAL_ORE:
+        experience: 5.0
+    Kill:
+      Cow:
+        experience: 6.0
+      Horse:
+        experience: 12.0
+      Chicken:
+        experience: 4.0
+      Pig:
+        experience: 8.0
+      Sheep:
+        experience: 10.0
+      Zombie:
+        experience: 16.0
+      Creeper:
+        experience: 20.0
+      Skeleton:
+        experience: 16.0
+      Spider:
+        experience: 14.0
+      Witch:
+        experience: 20.0
+      Enderman:
+        experience: 30.0
+    cmd-on-join:
+    - msg [name] Congrats on starting off!
+    - msg [name] You are now eligible to upgrade to Tier 1 at level 5!
+  tier1break:
+    fullname: Breaker
+    shortname: T1
+    description: '&rTier 1. &8Block breaking class. Earns access to T2 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Mining in the caves (up to Gold)'
+    - '  &7Chopping Wood'
+    - '  &7Excavating dirt'
+    - '  &7Smelting iron and gold'
+    ChatColour: WHITE
+    BossBarColour: WHITE
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 40*(joblevel)+(joblevel*joblevel*16)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 274
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    conditions:
+      tierupgrade:
+        requires:
+        - j:Breaker-10
+        perform:
+        - p:jobs.join.Miner-true
+    maxDailyQuests: 0
+    Break:
+      GRASS:
+        experience: 1.0
+      LOG:
+        experience: 2.0
+      STONE:
+        experience: 1.0
+      DIRT:
+        experience: 1.0
+      SAND:
+        experience: 1.0
+      GRAVEL:
+        experience: 1.0
+      IRON_ORE:
+        experience: 10.0
+      COAL_ORE:
+        experience: 5.0
+      GOLD_ORE:
+        experience: 20.0
+      LAPIS_ORE:
+        experience: 15.0
+      GLOWING_REDSTONE_ORE:
+        experience: 25.0
+    Smelt:
+      IRON_INGOT:
+        experience: 5.0
+      GOLD_INGOT:
+        experience: 10.0
+    cmd-on-join:
+    - jobs fire [name] Survivalist
+    - msg [name] You have chosen the path of Breaker. Break blocks to level up!
+  tier2mine:
+    fullname: Miner
+    shortname: T2
+    description: '&r&eTier 2. &8Ore mining class. Earns access to T3 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Mining in the caves (Best source)'
+    - '  &7Smelting ore'
+    - '  &7Removing gravel, dirt etc.'
+    ChatColour: YELLOW
+    BossBarColour: YELLOW
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 8*(joblevel)+(joblevel*joblevel*32)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 257
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    maxDailyQuests: 0
+    Break:
+      STONE:
+        experience: 1.0
+      DIRT:
+        experience: 1.0
+      GRAVEL:
+        experience: 1.0
+      IRON_ORE:
+        experience: 20.0
+      COAL_ORE:
+        experience: 10.0
+      GOLD_ORE:
+        experience: 40.0
+      LAPIS_ORE:
+        experience: 30.0
+      GLOWING_REDSTONE_ORE:
+        experience: 30.0
+      DIAMOND_ORE:
+        experience: 100.0
+      EMERALD_ORE:
+        experience: 200.0
+    Smelt:
+      IRON_INGOT:
+        experience: 5.0
+      GOLD_INGOT:
+        experience: 10.0
+    cmd-on-join:
+    - jobs fire [name] Breaker
+    - msg [name] Congrats on upgrading to Miner!
+  tier1gather:
+    fullname: Gatherer
+    shortname: T1
+    description: '&rTier 1. &8Overworld gathering class. Earns access to T2 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Breaking tall grass, melons and pumpkins'
+    - '  &7Gathering flowers and mushrooms'
+    - '  &7Planting saplings'
+    ChatColour: GREEN
+    BossBarColour: GREEN
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 40*(joblevel)+(joblevel*joblevel*16)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 295
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    maxDailyQuests: 0
+    Break:
+      LONG_GRASS:
+        experience: 1.0
+      YELLOW_FLOWER:
+        experience: 2.0
+      RED_ROSE:
+        experience: 2.0
+      BROWN_MUSHROOM:
+        experience: 4.0
+      RED_MUSHROOM:
+        experience: 4.0
+      HUGE_MUSHROOM_1:
+        experience: 4.0
+      HUGE_MUSHROOM_2:
+        experience: 4.0
+      PUMPKIN:
+        experience: 10.0
+      MELON_BLOCK:
+        experience: 10.0
+      CROPS:
+        experience: 5.0
+      DOUBLE_PLANT:
+        experience: 5.0
+    Place:
+      SAPLING:
+        experience: 1.0
+    cmd-on-join:
+    - jobs fire [name] Survivalist
+    - msg [name] You have chosen the path of Breaker. Break blocks to level up!
+  tier1hunt:
+    fullname: Hunter
+    shortname: T1
+    description: '&rTier 1. &8Mob hunter class. Earns access to T2 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Killing monsters (best source)'
+    - '  &7Killing animals'
+    - '  &7Killing players'
+    ChatColour: RED
+    BossBarColour: RED
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 40*(joblevel)+(joblevel*joblevel*16)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 272
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    conditions:
+      tierupgrade:
+        requires:
+        - j:Hunter-10
+        perform:
+        - p:jobs.join.Slayer-true
+    maxDailyQuests: 0
+    Kill:
+      Cow:
+        experience: 10.0
+      Horse:
+        experience: 16.0
+      Chicken:
+        experience: 6.0
+      Pig:
+        experience: 8.0
+      Sheep:
+        experience: 12.0
+      Zombie:
+        experience: 30.0
+      Creeper:
+        experience: 40.0
+      Skeleton:
+        experience: 30.0
+      Squid:
+        experience: 12.0
+      Polar_bear:
+        experience: 30.0
+      Rabbit:
+        experience: 10.0
+      Spider:
+        experience: 24.0
+      Witch:
+        experience: 40.0
+      Enderman:
+        experience: 40.0
+      Slime:
+        experience: 10.0
+      Cave_spider:
+        experience: 30.0
+      Silverfish:
+        experience: 10.0
+      Bat:
+        experience: 6.0
+      Player:
+        experience: 25.0
+      Zombie_villager:
+        experience: 30.0
+    cmd-on-join:
+    - jobs fire [name] Survivalist
+    - msg [name] You have chosen the path of Hunter. Kill mobs to level up!
+  tier2slay:
+    fullname: Slayer
+    shortname: T2
+    description: '&r&aTier 2. &8Monster hunter class. Earns access to T3 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Killing monsters (best source)'
+    - '  &7Killing animals'
+    - '  &7Killing players'
+    ChatColour: DARK_RED
+    BossBarColour: RED
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 80*(joblevel)+(joblevel*joblevel*32)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 267
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    maxDailyQuests: 0
+    Kill:
+      Cow:
+        experience: 15.0
+      Horse:
+        experience: 20.0
+      Chicken:
+        experience: 10.0
+      Pig:
+        experience: 12.0
+      Sheep:
+        experience: 20.0
+      Zombie:
+        experience: 40.0
+      Creeper:
+        experience: 50.0
+      Skeleton:
+        experience: 40.0
+      Squid:
+        experience: 24.0
+      Polar_bear:
+        experience: 60.0
+      Rabbit:
+        experience: 20.0
+      Spider:
+        experience: 35.0
+      Witch:
+        experience: 60.0
+      Enderman:
+        experience: 80.0
+      Slime:
+        experience: 20.0
+      Cave_spider:
+        experience: 40.0
+      Silverfish:
+        experience: 15.0
+      Bat:
+        experience: 10.0
+      Player:
+        experience: 40.0
+      Zombie_villager:
+        experience: 30.0
+    cmd-on-join:
+    - jobs fire [name] Survivalist
+    - msg [name] Congrats on upgrading to Hunter!
+  tier1craft:
+    fullname: Crafter
+    shortname: T1
+    description: '&rTier 1. &8Crafting class. Earns access to T2 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Crafting items (up to Iron)'
+    - '  &Smelting bars'
+    - '  &7Placing blocks'
+    ChatColour: BLUE
+    BossBarColour: BLUE
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 40*(joblevel)+(joblevel*joblevel*16)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 58
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+    conditions:
+      tierupgrade:
+        requires:
+        - j:Crafter-10
+        perform:
+        - p:jobs.join.Crafter+-true 
+    maxDailyQuests: 0
+    Craft:
+      CHEST:
+        experience: 10.0
+      WOODEN_DOOR:
+        experience: 7.5
+      WORKBENCH:
+        experience: 5.0
+      FURNACE:
+        experience: 8.0
+      STICK:
+        experience: 2.0
+      WOOD_SWORD:
+        experience: 3.0
+      WOOD_PICKAXE:
+        experience: 4.75
+      WOOD_AXE:
+        experience: 4.75
+      WOOD_SPADE:
+        experience: 2.25
+      WOOD_HOE:
+        experience: 3.5
+      STONE_SWORD:
+        experience: 2.5
+      STONE_PICKAXE:
+        experience: 4
+      STONE_AXE:
+        experience: 4
+      STONE_SPADE:
+        experience: 2
+      STONE_HOE:
+        experience: 3
+      IRON_SWORD:
+        experience: 8.5
+      IRON_PICKAXE:
+        experience: 13
+      IRON_AXE:
+        experience: 13
+      IRON_SPADE:
+        experience: 5
+      IRON_HOE:
+        experience: 9
+      IRON_HELMET:
+        experience: 20
+      LADDER:
+        experience: 3.5
+      IRON_CHESTPLATE:
+        experience: 32
+      IRON_LEGGINGS:
+        experience: 28
+      IRON_BOOTS:
+        experience: 16
+      FISHING_ROD:
+        experience: 9.5
+      TORCH:
+        experience: 2.5
+      ANVIL:
+        experience: 124.0
+      BUCKET:
+        experience: 12.0
+      COBBLE_WALL:
+        experience: 6.0
+      IRON_DOOR:
+        experience: 24.0
+      THIN_GLASS:
+        experience: 1.0
+      SANDSTONE:
+        experience: 4.0
+      SANDSTONE_STAIRS:
+        experience: 24.0
+      COBBLESTONE_STAIRS:
+        experience: 6.0
+      WOOD_STAIRS:
+        experience: 13.5
+      WOOD:
+        experience: 1.25
+      BOW:
+        experience: 7.5
+      SIGN:
+        experience: 8.0
+    Smelt:
+      IRON_INGOT:
+        experience: 4.0
+      GOLD_INGOT:
+        experience: 8.0
+      STONE:
+        experience: 1
+      GLASS:
+        experience: 1.0
+      COAL:
+        experience: 2.0
+    Place:
+      WOOD:
+        experience: 1.0
+      COBBLESTONE:
+        experience: 1.0
+      STONE:
+        experience: 1.0
+      LOG:
+        experience: 1.0
+      GLASS:
+        experience: 1.0
+      THIN_GLASS:
+        experience: 1.0
+      LADDER:
+        experience: 1.0
+    cmd-on-join:
+    - jobs fire [name] Survivalist
+    - msg [name] You have chosen the path of Crafter. Craft things to level up!
+  tier2craft:
+    fullname: Crafter+
+    shortname: T2
+    description: '&r&bTier 2. &8Advanced crafting class. Earns access to T3 on level 10.'
+    FullDescription:
+    - '&2Level up by:'
+    - '  &7Crafting items'
+    - '  &Smelting bars'
+    - '  &7Placing some blocks'
+    ChatColour: AQUA
+    BossBarColour: BLUE
+    chat-display: shortjob
+    max-level: 10
+    vip-max-level: 10
+    slots: -1
+    softIncomeLimit: 5
+    softExpLimit: 10
+    softPointsLimit: 10
+    leveling-progression-equation: 80*(joblevel)+(joblevel*joblevel*32)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+    rejoinCooldown: 10
+    Gui:
+      Id: 61
+      Data: 0
+    permissions:
+      jobs.join.Survivalist:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+    maxDailyQuests: 0
+    Craft:
+      CHEST:
+        experience: 10.0
+      WOODEN_DOOR:
+        experience: 7.5
+      WORKBENCH:
+        experience: 5.0
+      FURNACE:
+        experience: 8.0
+      STICK:
+        experience: 2.0
+      WOOD_SWORD:
+        experience: 3.0
+      WOOD_PICKAXE:
+        experience: 4.75
+      WOOD_AXE:
+        experience: 4.75
+      WOOD_SPADE:
+        experience: 2.25
+      WOOD_HOE:
+        experience: 3.5
+      STONE_SWORD:
+        experience: 2.5
+      STONE_PICKAXE:
+        experience: 4
+      STONE_AXE:
+        experience: 4
+      STONE_SPADE:
+        experience: 2
+      STONE_HOE:
+        experience: 3
+      IRON_SWORD:
+        experience: 8.5
+      IRON_PICKAXE:
+        experience: 13
+      IRON_AXE:
+        experience: 13
+      IRON_SPADE:
+        experience: 5
+      IRON_HOE:
+        experience: 9
+      IRON_HELMET:
+        experience: 20
+      LADDER:
+        experience: 3.5
+      IRON_CHESTPLATE:
+        experience: 32
+      IRON_LEGGINGS:
+        experience: 28
+      IRON_BOOTS:
+        experience: 16
+      FISHING_ROD:
+        experience: 9.5
+      TORCH:
+        experience: 2.5
+      ANVIL:
+        experience: 124.0
+      BUCKET:
+        experience: 12.0
+      COBBLE_WALL:
+        experience: 6.0
+      IRON_DOOR:
+        experience: 24.0
+      THIN_GLASS:
+        experience: 1.0
+      SANDSTONE:
+        experience: 4.0
+      SANDSTONE_STAIRS:
+        experience: 24.0
+      COBBLESTONE_STAIRS:
+        experience: 6.0
+      WOOD_STAIRS:
+        experience: 13.5
+      WOOD:
+        experience: 1.25
+      BOW:
+        experience: 7.5
+      SIGN:
+        experience: 8.0
+    Smelt:
+      IRON_INGOT:
+        experience: 4.0
+      GOLD_INGOT:
+        experience: 8.0
+      STONE:
+        experience: 1
+      GLASS:
+        experience: 1.0
+      COAL:
+        experience: 2.0
+    Place:
+      WOOD:
+        experience: 1.0
+      COBBLESTONE:
+        experience: 1.0
+      STONE:
+        experience: 1.0
+      LOG:
+        experience: 1.0
+      GLASS:
+        experience: 1.0
+      THIN_GLASS:
+        experience: 1.0
+      LADDER:
+        experience: 1.0
+    cmd-on-join:
+    - jobs fire [name] Survivalist
+    - msg [name] Congrats on upgrading to Advanced Crafter!
+  None:
+    fullname: None
+    shortname: N
+    ChatColour: WHITE
+    chat-display: shortjob
+    permissions:
+      jobs.join.Breaker:
+        value: false
+        level: 0
+      jobs.join.Gatherer:
+        value: false
+        level: 0
+      jobs.join.Hunter:
+        value: false
+        level: 0
+      jobs.join.Crafter:
+        value: false
+        level: 0
+      jobs.join.Survivalist:
+        value: true
+        level: 0
+      jobs.join.Miner:
+        value: false
+        level: 0
+      jobs.join.Slayer:
+        value: false
+        level: 0
+      jobs.join.Crafter+:
+        value: false
+        level: 0
+    leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+    income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(joblevel-1)*0.01)
+      * ((numjobs-1)*0.05))
+    experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))

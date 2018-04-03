@@ -1,0 +1,11 @@
+# The New Economy v0.0.5.5
+# Author: creatorfromhell
+# License: AGPLv3
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+
+
+Players:
+  player-uuid-here:
+    Shops:
+      Enabled: false

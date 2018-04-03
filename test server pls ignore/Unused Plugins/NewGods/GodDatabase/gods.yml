@@ -1,0 +1,14 @@
+gods:
+  names:
+  - Marteemism
+  data:
+    Marteemism:
+      leader: Stellarexys
+      priests: []
+      power: 16
+      believers: 1
+      world: world
+      spawnx: -288
+      spawny: 73
+      spawnz: 333
+      type: WHITE

@@ -1,0 +1,31 @@
+TO-GET-CONFIG-HELP-CHECK-THE-DOWNLOAD-PAGE: https://www.spigotmc.org/resources/new-gods.41780/
+allow-marriges: true
+allow-prefixs: true
+exp-bless-amount: 5
+allow-exp-blessing: true
+sacrafice-update-speed: 12000
+god-punishments: false
+pray-delay: 600
+buy-items:
+- WOOD,64,32,0
+- IRON_INGOT,16,1,50
+- GOLD_INGOT,64,1,100
+- DIAMOND,300,1,200
+buy-blessings:
+- FIRE_RESISTANCE,50,60,0
+- WATER_BREATHING,50,60,25
+- DAMAGE_RESISTANCE,50,60,50
+- INVISIBILITY,50,60,75
+- FAST_DIGGING,50,60,100
+- SPEED,50,60,125
+- JUMP,50,60,150
+- REGENERATION,50,60,175
+- NIGHT_VISION,50,60,200
+sacrafice-items:
+- APPLE,16,3
+- BONE,25,5
+- ROTTEN_FLESH,32,1
+sacrafice-mobs:
+- COW,3,5
+- PLAYER,1,50
+- CHICKEN,10,3

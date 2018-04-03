@@ -1,0 +1,23 @@
+lastAccountName: Marteem
+timestamps:
+  login: 1520711619306
+  logout: 1520711770678
+  kits:
+    dtools: 1520446649015
+  lastteleport: 1520711626175
+ipAddress: 127.0.0.1
+logoutlocation:
+  world: world
+  x: 103.66442479957982
+  y: 97.7383676377636
+  z: 248.6877884758816
+  yaw: 248.25002
+  pitch: 19.35
+lastlocation:
+  world: world
+  x: 48.85684074255494
+  y: 86.93920451177644
+  z: 323.12338653164153
+  yaw: -68.25008
+  pitch: 22.050009
+afk: false

@@ -1,0 +1,54 @@
+# The New Economy v0.0.5.5
+# Author: creatorfromhell
+# License: AGPLv3
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+
+
+Worlds:
+  Example:
+    DisableEconomy: true
+    ChangeFee: 10.0
+    Share:
+      Balances: worldname
+      Configurations: worldname
+    Currency:
+      Default:
+        Format: <symbol><major><decimal><minor><shorten>
+        Balance: 200.0
+        Default: true
+        Conversion: 1.0
+        Symbol: $
+        Decimal: .
+        ItemCurrency: false
+        ItemMajor: GOLD_INGOT
+        ItemMinor: IRON_INGOT
+        MajorName:
+          Single: Dollar
+          Plural: Dollars
+        MinorName:
+          Single: Cent
+          Plural: Cents
+  AcidIsland:
+    DisableEconomy: false
+    ChangeFee: 0.0
+    Share:
+      Balances: AcidIsland
+      Configurations: world
+    Currency:
+      Default:
+        Format: <symbol><major><decimal><minor><shorten>
+        Balance: 0
+        Default: true
+        Conversion: 1.0
+        Symbol: ♦
+        Decimal: .
+        ItemCurrency: false
+        ItemMajor: GOLD_INGOT
+        ItemMinor: IRON_INGOT
+        MajorName:
+          Single: Lumi
+          Plural: Lumis
+        MinorName:
+          Single: Centilumen
+          Plural: Centilumens

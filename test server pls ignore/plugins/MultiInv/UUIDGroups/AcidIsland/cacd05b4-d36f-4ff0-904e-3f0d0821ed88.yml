@@ -1,0 +1,10 @@
+SURVIVAL: '{"potions":[],"inventory":{"size":41,"items":{"0":{"item":"LOG_2","quantity":7,"durability":0,"nbttags":null,"enchantments":{}},"1":{"item":"WOOD_PICKAXE","quantity":1,"durability":1,"nbttags":null,"enchantments":{}},"2":{"item":"SAND","quantity":3,"durability":0,"nbttags":null,"enchantments":{}},"3":{"item":"BUCKET","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"4":{"item":"DIRT","quantity":1,"durability":0,"nbttags":null,"enchantments":{}},"5":{"item":"COBBLESTONE","quantity":1,"durability":0,"nbttags":null,"enchantments":{}}}},"armour":{"size":4,"items":{}}}'
+CREATIVE: '{"potions":[],"inventory":{"size":41,"items":{}},"armour":{"size":4,"items":{}}}'
+experience: 0
+level: 0
+exp: 0.0
+gameMode: SURVIVAL
+health: 20.0
+hunger: 20
+saturation: 4.0
+SPECTATOR: '{"potions":[],"inventory":{"size":41,"items":{}},"armour":{"size":4,"items":{}}}'

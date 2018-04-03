@@ -1,0 +1,27 @@
+# The New Economy v0.0.5.5
+# Author: creatorfromhell
+# License: AGPLv3
+# If you would like to contribute to the plugin
+# you can do so via Github at https://github.com/TheNewEconomy/TNE-Bukkit
+
+Materials:
+  Enabled: false
+  Items:
+    ZeroMessage: false
+    Example:
+      Buy: 20.0
+      Sell: 15.0
+      Use: 0.0
+      Crafting: 5.0
+      Enchant: 2.0
+      Smelt: 4.0
+      Consume: 5.0
+  Blocks:
+    ZeroMessage: false
+    Example:
+      Buy: 20.0
+      Sell: 15.0
+      Crafting: 5.0
+      Place: 5.0
+      Mine: 2.0
+      Smelt: 4.0

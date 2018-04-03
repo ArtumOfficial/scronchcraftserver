@@ -1,0 +1,392 @@
+[22:53:10] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[22:53:10] [Server thread/INFO]: Loading properties
+[22:53:10] [Server thread/INFO]: Default game type: SURVIVAL
+[22:53:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-c3093ef-3a482bd (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[22:53:11] [Server thread/INFO]: Debug logging is disabled
+[22:53:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:53:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:53:11] [Server thread/INFO]: Generating keypair
+[22:53:11] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:53:11] [Server thread/INFO]: Using default channel type
+[22:53:11] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:53:11] [Server thread/INFO]: [RoleplayHelper] Loading RoleplayHelper v7.0
+[22:53:11] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[22:53:11] [Server thread/INFO]: [mcMMO] Loading mcMMO v1.5.09-SNAPSHOT
+[22:53:11] [Server thread/INFO]: [NewGods] Loading NewGods v2.0
+[22:53:11] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[22:53:11] [Server thread/INFO]: [GriefPrevention] Loading GriefPrevention v16.8
+[22:53:11] [Server thread/INFO]: [Jobs] Loading Jobs v4.5.2
+[22:53:11] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b488
+[22:53:11] [Server thread/INFO]: [mcMMO] Enabling mcMMO v1.5.09-SNAPSHOT
+[22:53:12] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[22:53:12] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:53:12] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:53:12] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[22:53:12] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:53:12] [Server thread/INFO]: Preparing level "world"
+[22:53:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:53:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:53:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:53:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:53:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:53:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:53:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:53:12] [Server thread/INFO]: View Distance: 10
+[22:53:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:53:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:53:12] [Server thread/INFO]: Mob Spawn Range: 4
+[22:53:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:53:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:53:12] [Server thread/INFO]: Structure Info Saving: true
+[22:53:12] [Server thread/INFO]: Max TNT Explosions: 100
+[22:53:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:53:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:53:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Random Lighting Updates: false
+[22:53:12] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:53:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:53:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:53:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:53:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:53:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:53:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:53:12] [Server thread/INFO]: View Distance: 10
+[22:53:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:53:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:53:12] [Server thread/INFO]: Mob Spawn Range: 4
+[22:53:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:53:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:53:12] [Server thread/INFO]: Structure Info Saving: true
+[22:53:12] [Server thread/INFO]: Max TNT Explosions: 100
+[22:53:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:53:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:53:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Random Lighting Updates: false
+[22:53:12] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:53:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:53:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:53:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:53:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:53:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:53:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:53:12] [Server thread/INFO]: View Distance: 10
+[22:53:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:53:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[22:53:12] [Server thread/INFO]: Mob Spawn Range: 4
+[22:53:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[22:53:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:53:12] [Server thread/INFO]: Structure Info Saving: true
+[22:53:12] [Server thread/INFO]: Max TNT Explosions: 100
+[22:53:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:53:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:53:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[22:53:12] [Server thread/INFO]: Random Lighting Updates: false
+[22:53:13] [Server thread/INFO]: Preparing start region for level 0 (Seed: 3062736666624054162)
+[22:53:14] [Server thread/INFO]: Preparing spawn area: 48%
+[22:53:14] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3062736666624054162)
+[22:53:15] [Server thread/INFO]: Preparing start region for level 2 (Seed: 3062736666624054162)
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.help' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.help.misc' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.sign.interact' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.ccode' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.join' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.setspawn' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.itemname' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.itemlore' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.headselect' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.jobselect' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.emoteselect' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.setwelcomeitem' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/ERROR]: Permission node 'rp.showjoin' in plugin description file for RoleplayHelper v7.0 is invalid
+java.lang.IllegalArgumentException: 'default' key contained unknown value
+	at org.bukkit.permissions.Permission.loadPermission(Permission.java:294) ~[spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.permissions.Permission.loadPermissions(Permission.java:233) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.plugin.PluginDescriptionFile.getPermissions(PluginDescriptionFile.java:764) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugin(CraftServer.java:370) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:330) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.t(MinecraftServer.java:422) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.l(MinecraftServer.java:383) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.a(MinecraftServer.java:338) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:272) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [spigot.jar:git-Spigot-c3093ef-3a482bd]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_161]
+[22:53:15] [Server thread/INFO]: [RoleplayHelper] Enabling RoleplayHelper v7.0
+[22:53:15] [Server thread/INFO]: [RoleplayHelper] Roleplays are enabled!
+[22:53:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[22:53:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:53:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_12_R2 as the Bukkit adapter
+[22:53:21] [Server thread/INFO]: [NewGods] Enabling NewGods v2.0
+[22:53:21] [Server thread/INFO]: [NewGods] NewGods has been enabled! Version:2.0
+[22:53:21] [Server thread/INFO]: [GriefPrevention] Enabling GriefPrevention v16.8
+[22:53:21] [Server thread/INFO]: [GriefPrevention] Finished loading configuration.
+[22:53:21] [Server thread/INFO]: [GriefPrevention] 0 total claims loaded.
+[22:53:22] [Server thread/INFO]: [GriefPrevention] Customizable messages loaded.
+[22:53:22] [Server thread/INFO]: [GriefPrevention] Finished loading data (File Mode).
+[22:53:22] [Server thread/INFO]: [GriefPrevention] Boot finished.
+[22:53:22] [Server thread/INFO]: [Jobs] Enabling Jobs v4.5.2
+[22:53:22] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 8 titles![m
+[22:53:22] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 0 restricted areas![m
+[22:53:22] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 49 protected blocks timers![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 641 custom item names![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 41 custom entity names![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 27 custom enchant names![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 16 custom color names![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 4 shop items![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 12 jobs![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Explorer job manager registered![m
+[22:53:23] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Started database save task.[m
+[22:53:23] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Started buffered payment thread.[m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded 0 schedulers![m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Preloaded 0 players data in 0.0[m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] [0;33;22mmcMMO was found - Enabling capabilities.[m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loading explorer data[m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Loaded explorer data (0)[m
+[22:53:23] [Server thread/INFO]: [0;33;1m[Jobs] Plugin has been enabled succesfully.[m
+[22:53:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b488
+[22:53:23] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[22:53:23] [Server thread/INFO]: [Essentials] Starting usermap repair
+[22:53:23] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[22:53:23] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[22:53:23] [Server thread/INFO]: [Essentials] Using Reflection based provider as spawn egg provider.
+[22:53:23] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[22:53:23] [Server thread/INFO]: Using locale en_US
+[22:53:23] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:53:23] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[22:53:23] [Server thread/INFO]: [Essentials] Using config file enhanced permissions.
+[22:53:23] [Server thread/INFO]: [Essentials] Permissions listed in as player-commands will be given to all users.
+[22:53:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:53:24] [Server thread/INFO]: Done (11.660s)! For help, type "help" or "?"
+[22:53:24] [Server thread/INFO]: [0;33;1m[Jobs] Successfully linked with Vault.[m
+[22:53:24] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[22:53:24] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[22:54:10] [User Authenticator #1/INFO]: UUID of player Marteem is 0b713b79-a469-4b55-81be-13d529aea46f
+[22:54:11] [Server thread/INFO]: Marteem[/127.0.0.1:49197] logged in with entity id 128 at ([world]-310.5, 81.0, 214.5)
+[22:54:11] [Craft Scheduler Thread - 0/WARN]: File motd.txt does not exist. Creating one for you.
+[22:54:11] [pool-6-thread-1/INFO]: Creating empty config: E:\Servers\1.12.2 testing server\plugins\Essentials\userdata\0b713b79-a469-4b55-81be-13d529aea46f.yml
+[22:54:20] [Server thread/INFO]: Opped marteem
+[22:54:29] [Server thread/INFO]: Opped Marteem
+[22:54:34] [Server thread/INFO]: Marteem issued server command: /deop marteem
+[22:54:34] [Server thread/INFO]: [Marteem: De-opped marteem]
+[22:54:36] [Server thread/INFO]: Marteem issued server command: /gm 1
+[22:54:36] [Server thread/INFO]: §cMarteem §4was denied access to command.
+[22:54:40] [Server thread/INFO]: Opped Marteem
+[22:54:42] [Server thread/INFO]: Marteem issued server command: /gm 1
+[22:54:48] [Server thread/INFO]: Marteem issued server command: /help
+[22:55:01] [Server thread/INFO]: Marteem issued server command: /help roleplayhelper
+[22:55:08] [Server thread/INFO]: Marteem issued server command: /rpname Artum
+[22:55:11] [Server thread/INFO]: <[0;31;22mMarteem[m> owo[m
+[22:55:20] [Server thread/INFO]: Marteem issued server command: /rpage 18
+[22:55:31] [Server thread/INFO]: Marteem issued server command: /regener toaster
+[22:55:40] [Server thread/INFO]: Marteem issued server command: /rpgender toaster
+[22:56:19] [Server thread/INFO]: Marteem issued server command: /rprace toaster
+[22:58:55] [Server thread/INFO]: Marteem issued server command: /help roleplayhelper
+[22:59:07] [Server thread/INFO]: Marteem issued server command: /profile
+[22:59:12] [Server thread/INFO]: Marteem issued server command: /profile Marteem
+[22:59:35] [Server thread/INFO]: Marteem issued server command: /repbackstory he's pretty gay
+[22:59:39] [Server thread/INFO]: Marteem issued server command: /rpbackstory he's pretty gay
+[22:59:49] [Server thread/INFO]: Marteem issued server command: /help roleplayhelper 2
+[23:00:10] [Server thread/INFO]: Marteem issued server command: /rpshowjoin
+[23:00:22] [Server thread/INFO]: Marteem issued server command: /rp Marteem
+[23:00:32] [Server thread/INFO]: Marteem issued server command: /rpname Artum
+[23:00:34] [Server thread/INFO]: Marteem issued server command: /rp Marteem
+[23:00:41] [Server thread/INFO]: Marteem issued server command: /profile
+[23:00:46] [Server thread/INFO]: Marteem issued server command: /profile Marteem
+[23:02:03] [Server thread/INFO]: Marteem issued server command: /stop
+[23:02:03] [Server thread/INFO]: [Marteem: Stopping the server]
+[23:02:03] [Server thread/INFO]: Stopping server
+[23:02:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b488
+[23:02:03] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[23:02:03] [Server thread/INFO]: [Jobs] Disabling Jobs v4.5.2
+[23:02:03] [Server thread/INFO]: [0;33;1m[Jobs] Saved 19 new explorer entries.[m
+[23:02:03] [Server thread/INFO]: [Jobs] Saving blocks
+[23:02:03] [Jobs-BufferedPaymentThread/INFO]: [0;33;1m[Jobs] Buffered payment thread shutdown.[m
+[23:02:03] [Jobs-DatabaseSaveTask/INFO]: [0;33;1m[Jobs] Database save task shutdown![m
+[23:02:03] [Server thread/INFO]: [0;33;1m[Jobs] [0;32;22mPlugin has been disabled succesfully.[m
+[23:02:03] [Server thread/INFO]: [GriefPrevention] Disabling GriefPrevention v16.8
+[23:02:03] [Server thread/INFO]: [GriefPrevention] GriefPrevention disabled.
+[23:02:03] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[23:02:03] [Server thread/INFO]: [NewGods] Disabling NewGods v2.0
+[23:02:03] [Server thread/INFO]: [NewGods] NewGods has been disabled! Version:2.0
+[23:02:03] [Server thread/INFO]: [mcMMO] Disabling mcMMO v1.5.09-SNAPSHOT
+[23:02:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.8-SNAPSHOT;cd4729f
+[23:02:03] [Server thread/INFO]: [RoleplayHelper] Disabling RoleplayHelper v7.0
+[23:02:03] [Server thread/INFO]: [0;31;1mRoleplays are disabled![m
+[23:02:03] [Server thread/INFO]: [RoleplayHelper] Roleplays are disabled!
+[23:02:03] [Server thread/INFO]: Saving players
+[23:02:03] [Server thread/INFO]: Marteem lost connection: Server closed
+[23:02:03] [Server thread/INFO]: Marteem left the game
+[23:02:03] [Server thread/INFO]: Saving worlds
+[23:02:03] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[23:02:04] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[23:02:04] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end

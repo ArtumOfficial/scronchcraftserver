@@ -1,0 +1,44 @@
+# -----------------------------------------------0
+#                                               |
+#               RoleplayHelper                  |
+#               Version 1.12.2                  |
+#                 By Ubalube                    |
+#    Do Not Edit Anything with a # infront!     |
+#                                               |
+# -----------------------------------------------0
+# RoleplayHelper is for 1.12.2
+# RoleplayHelper created by Ubalube
+# -=-=-=[Messages]=-=-=-
+noperm: You do not have permission to do this!
+ExtraHelpInfo: /rpextra - an extra command editable in the config.yml
+InfoLine1: 'Main Commands: /rp[name:age:gender:race:personality:extra:backstory]'
+InfoLine2: '--------------------------------------'
+InfoLine3: /profile <user> - shows the profile of the user
+InfoLine4: /profilesetup - Displays this text
+RulesLine1: RoleplayHelper+ Rules [✦]
+RulesLine2: '&cNot Allowed'
+RulesLine3: '&cRule 1 - No inappropriate roleplays!'
+RulesLine4: '&cRule 2 - No racism during a rp!'
+RulesLine5: '&cRule 3 - You MUST follow the rules of a roleplay!'
+RulesLine6: '&aAllowed'
+RulesLine7: '&aRule 4 - Violence is allowed if the rp instructor states it is allowed'
+RulesLine8: '&aYou can add more here in the config.yml'
+RulesLine9: ''
+RulesLine10: Made by Ubalube
+RpLine1: Set the name of your roleplay with /rpsetname <args>
+RpLine2: Set the theme of your roleplay with /rptheme <args>
+RpLine3: '--------------------------------------'
+RpLine4: You can do /rp <playername> to view their rp.
+Extra: 'Extra:'
+ExtraSet: Rp Extra Set
+ExtraNoPerm: '&fUnknown command. Type "/help" for help.'
+Branding: Made by Ubalube
+Smile: '*Smiles*'
+Cry: '*Cries*'
+Laugh: '*Laughs*'
+Scared: '*Trembles in Fear*'
+Blush: '*Blushes*'
+Cough: '*Coughs*'
+Scream: '*Screams*'
+SignHeader: '[rph]'
+HelpSign: help
